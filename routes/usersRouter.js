@@ -5,8 +5,6 @@ const userModel = require("../models/user-model");
 const isLoggedIn = require("../middlewares/isLoggedIn");
 const upload = require("../config/multer-config");
 
-// Secret key for JWT (This should be stored securely in a .env file!)
-// const jwtSecret = "shhhhhh"; // Using the placeholder secret from your previous context
 
 // GET / route
 // router.get("/", function (req, res) {
